@@ -1,4 +1,4 @@
-### Install environment on Linux 
+## Install environment on Linux 
 
 1. Install some package
 
