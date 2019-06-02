@@ -3,7 +3,8 @@
 1. Install some package
 
     ```bash
-    sudo apt-get update && sudo apt-get install -y vim python-pip curl git
+    sudo apt update
+    sudo apt install -y python-pip curl git
     pip install docker-compose
     ```
 
