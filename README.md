@@ -4,14 +4,15 @@
 
     ```bash
     sudo apt update
+    sudo apt upgrade
     sudo apt install -y python-pip curl git
     pip install docker-compose
     ```
 
 2. Install Docker 
 
-    Way 1: `sudo curl -sSL https://get.daocloud.io/docker | sh`  
-    Way 2: `sudo curl -sSL get.docker.com | sh`
+    Method 1: `sudo curl -sSL https://get.daocloud.io/docker | sh`  
+    Method 2: `sudo curl -sSL get.docker.com | sh`
     
     More reference at： [https://docs.docker.com/install/](https://docs.docker.com/install/)
 
@@ -28,7 +29,7 @@
 2. Clone sources project
 
     ```bash
-    git clone -b 2.0 https://github.com/Greenhat1998/OnlineJudgeDeploy.git
+    git clone https://github.com/Greenhat1998/OnlineJudgeDeploy.git
     cd OnlineJudgeDeploy
     ```
 
