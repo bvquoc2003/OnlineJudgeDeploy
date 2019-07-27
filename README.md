@@ -3,8 +3,6 @@
 1. Install some package
 
     ```bash
-    sudo apt update
-    sudo apt upgrade
     sudo apt install -y python-pip curl git
     pip install docker-compose
     ```
@@ -25,15 +23,19 @@
     cd ..
     cd home/youruser
     ```
-
-2. Clone sources project
+2. Disable processes that are using port 80
+    ```
+    sudo lsof -i tcp:80 -s tcp:listen
+    sudo lsof -t -i tcp:80 -s tcp:listen | sudo xargs kill
+    ```
+3. Clone sources project
 
     ```bash
-    git clone https://github.com/Greenhat1998/OnlineJudgeDeploy.git
+    git clone https://github.com/Greenhat1998/OnlineJudgeDeploy
     cd OnlineJudgeDeploy
     ```
 
-3. Run docker-compose
+4. Run docker-compose
 
     ```bash
     apt install docker-compose
