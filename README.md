@@ -7,9 +7,10 @@
     ```
 
 2. Install Docker 
-    Method 1: `sudo curl -sSL https://get.daocloud.io/docker | sh`  
-    Method 2: `sudo curl -sSL get.docker.com | sh`
-    More reference at： [https://docs.docker.com/install/](https://docs.docker.com/install/)
+    
+    # Method 1: `sudo curl -sSL https://get.daocloud.io/docker | sh`  
+    # Method 2: `sudo curl -sSL get.docker.com | sh`
+    # More reference at： [https://docs.docker.com/install/](https://docs.docker.com/install/)
 
 ## Setting and configing system
 
