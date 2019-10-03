@@ -17,7 +17,7 @@
 
 1. Use root permission
     ```bash
-    sudo apt passwd root
+    sudo passwd root
     su -
     cd ..
     cd home/youruser
